@@ -4,6 +4,11 @@ My approach to solving Lithodomos' coding challenge.
 The LithodomosVR Unity Coding Challenge was to put together a simple 360 Image viewing app for mobile devices, which allowed users to move their phone in real-world space to view the 360 image in a "magic window" style.
 The challenge was enjoyable, offering a good deal of room to include certain intricacies and optimisations.
 
+# Setup
+The project was developed in Unity version *2018.2.0b4*.
+There should be no difficulties dealing with this project. Included is a pre-built Android APK file, tested with a Google Pixel 2XL. Unfortunately I do not have access to any iOS devices so was unable to test a build there.
+Users can press the left and right arrow keys when working in the Unity Editor to change images, and click and drag on the 'Game' scene window to change the viewing perspective.
+
 
 # How did you decide on the approach you took?
 In terms of completing the project itself, my approach was the kind I tend to take: create an extremely basic version of the application with each of its bare minimum requirements met, then iterate on there to flesh it out and improve. My technical approach was based on my experience working on similar applications in the past, and fortunatey, I had some old projects lying around with some useful parts that I was able to repurpose for this task - such as a mesh for a nicer sphere than Unity's default sphere mesh, a shader allowing mmapping of Equirectangular images to the inside of a sphere, and some other useful scripts I'd written a few months ago such as an Event handler for communication between scripts. For each factor of the challenge, I took a bit of time to consider the best approach, made an attempt at following my initial ideas, and then took a step back to reconsider and take necessary steps to improve the approach wherever necessary.
