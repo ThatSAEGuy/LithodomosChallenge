@@ -1,5 +1,5 @@
 # LithodomosChallenge
-My approach to solving Lithodomos' coding challenge
+My approach to solving Lithodomos' coding challenge.
 
 The LithodomosVR Unity Coding Challenge was to put together a simple 360 Image viewing app for mobile devices, which allowed users to move their phone in real-world space to view the 360 image in a "magic window" style.
 The challenge was enjoyable, offering a good deal of room to include certain intricacies and optimisations.
